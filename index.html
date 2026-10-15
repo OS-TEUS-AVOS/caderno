@@ -89,6 +89,14 @@
   .photo-split.reverse .photo-frame { order: 2; }
   .photo-split.reverse .photo-text { order: 1; }
   @media (min-width: 800px) { .photo-split.reverse .photo-frame { margin: 0 0 24px 14px; } .photo-split.reverse .photo-frame::before { left: -18px; right: 18px; } .photo-split.reverse .photo-tag { left: auto; right: -10px; } }
+  .callout {
+    display: block; background: var(--navy); color: var(--branco); border-radius: 12px; padding: 18px 22px;
+    font-family: "Outfit", sans-serif; font-size: 17px; line-height: 1.5;
+    max-width: 560px; margin: 44px 0 30px; border-left: 6px solid var(--ambar); box-shadow: 0 8px 22px rgba(0, 37, 84, .15);
+  }
+  .callout-q { display: block; font-family: "Open Sans", sans-serif; font-weight: 700; font-size: 18px; line-height: 1.35; margin-bottom: 8px; }
+  .callout-a { display: block; font-weight: 400; }
+  .callout-final { margin: 0 auto 28px; max-width: 520px; text-align: center; }
   .bg-claro { background: var(--cinza-claro); }
   .bg-azul { background: var(--azul-claro); }
 
@@ -153,7 +161,6 @@
 <header>
   <div class="wrap">
     <div class="logo">Os teus <em>Avós.</em></div>
-    <a class="btn-small" href="#PREENCHER-LINK-HOTMART" target="_blank" rel="noopener">Comprar</a>
   </div>
 </header>
 
@@ -172,6 +179,7 @@
     <h2 id="o-que-e">O que é o <span class="c">Caderno de Atividades</span></h2>
     <p class="lead">Um caderno de atividades estruturadas, criado sob evidência científica nas áreas da geriatria, gerontologia, psicologia e psicomotricidade. Não se limita a exercícios: pretende transmitir confiança, autoestima e animação a quem o faz.</p>
     <p class="quote">Pensado desde o início para quem tem dificuldades de leitura e escrita: letra grande, frases curtas e tarefas fáceis de perceber e executar.</p>
+    <div class="callout" role="note"><span class="callout-q">Sabias que muitos idosos perdem capacidades cognitivas e motoras por falta de atividades específicas que os estimulem?</span><span class="callout-a">Este caderno nasceu para ser a solução.</span></div>
   </div>
 </section>
 
@@ -232,7 +240,7 @@
     <div class="photo-text">
       <div class="mark" aria-hidden="true"></div>
       <h2 id="na-mesa">Feito para a <span class="c">mesa</span></h2>
-      <p>Um caderno para pegar, abrir e fazer sem pressa. Letra grande, uma atividade de cada vez, e tempo para conversar sobre o que se vai fazendo.</p>
+      <p>60 páginas para pegar, abrir e fazer sem pressa. Letra grande, uma atividade de cada vez, e tempo para conversar sobre o que se vai fazendo.</p>
     </div>
   </div>
 </section>
@@ -260,7 +268,7 @@
     <div class="photo-text">
       <div class="mark" aria-hidden="true"></div>
       <h2 id="em-grupo">Em <span class="c">grupo</span>, o jogo ganha vida</h2>
-      <p>As atividades também servem para juntar pessoas. Cada um faz à sua maneira, e o momento fica para a conversa.</p>
+      <p>As atividades também servem para juntar pessoas. A interação social e a partilha trazem dinamismo à vida do idoso.</p>
     </div>
   </div>
 </section>
@@ -268,6 +276,7 @@
 <section id="comprar" aria-labelledby="preco">
   <div class="wrap">
     <h2 id="preco" style="text-align:center;">Compra o teu <span class="c">caderno</span></h2>
+    <p class="callout callout-final" style="color:var(--navy);background:var(--rosa);border-left:none;box-shadow:none;text-align:center;"><span class="callout-q">Sabias que muitos idosos perdem capacidades cognitivas e motoras por falta de atividades específicas que os estimulem?</span><span class="callout-a">Este caderno nasceu para ser a solução.</span></p>
     <div class="buy-box">
       <div class="price">€5,99 <small>· pagamento único</small></div>
       <p class="note">Caderno completo de atividades cognitivas e motoras.</p>
